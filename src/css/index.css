@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ECB159;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color:#FEFBF6;
+}
+
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    gap:1rem;
+}
+
+.matrix-container button {
+     padding:50px;
+     border-radius: 25px;
+     border-color: transparent;
+     color:#FEFBF6;
+     background-color: #B67352;
+}
