@@ -17,14 +17,53 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2%;
     gap:1rem;
 }
 
 .matrix-container button {
-     padding:50px;
-     border-radius: 25px;
      border-color: transparent;
      color:#FEFBF6;
      background-color: #B67352;
+}
+
+
+
+
+.row-1 button {
+    padding:50px;
+    border-radius: 25px;
+}
+.row-2 button {
+    padding:50px;
+    border-radius: 25px;
+}
+.row-3 button {
+    padding:50px;
+    border-radius: 25px;
+}
+
+.reset-btn{
+     border-radius: 25px;
+     padding: 20px;
+     width: 150px;
+}
+
+button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    color:#FEFBF6;
+    gap:1rem;
+}
+
+.X-board p{
+    text-align: center;
+} 
+
+.O-board p{
+   text-align: center;
 }

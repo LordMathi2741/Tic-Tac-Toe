@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/css/style.css" rel="stylesheet">
+    <link href="./src/css/index.css" rel="stylesheet">
 
     <title>Tic Tac Toe</title>
 </head>
 <body>
     <h1> Tic Tac Toe </h1>
+    <div class="score-board">
+    <div class="X-board">
+        <h4> 0 score:</h4>
+        <p id="0"> 0</p>
+    </div>
+      <div class="O-board">
+        <h4> X score:</h4>
+        <p id="X"> 0 </p>
+      </div>
+    </div>
     <div id="played">
         <div class="matrix-container">
             <div class="row-1">
@@ -26,6 +36,7 @@
                 <button  class="btn8"></button>
                 <button  class="btn9"> </button>
             </div>
+            <button id="reset-btn"  class="reset-btn"> Reset</button>
         </div>
     </div>
     <script src="./src/js/index.js"></script>
